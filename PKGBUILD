@@ -14,6 +14,8 @@ license=(GPL)
 groups=(kde-applications-git kde-multimedia-git)
 depends=(qt5-networkauth knewstuff-git knotifyconfig-git kfilemetadata-git purpose-git mlt breeze-icons-git frei0r-plugins)
 makedepends=(extra-cmake-modules-git kdoctools-git v4l-utils doxygen qt5-tools)
+conflicts=(kdenlive kdenlive-git)
+provides=(kdenlive)
 optdepends=('ffmpeg: for FFmpeg plugin'
             'dvgrab: for firewire capture'
             'recordmydesktop: for screen capture'
